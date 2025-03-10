@@ -13,4 +13,7 @@ fun main(){
     val imc = p.peso / (p.altura * p.altura)
     println(imc)
 
+    //ATIVIDADE: Crie uma classe animal
+    //ATIVIDADE: Nome Ciêntifico, Especie, Dieta, Habitat
+
 }
