@@ -1,8 +1,8 @@
 fun main(){
-    val p: Pessoa()
+  /*  val p = Pessoa()
 
     println("Digite seu nome")
-    p.nome = readLine()
+    p.nome = readLine()!!.toString()
     println("Digite sua Idade")
     p.idade = readLine()!!.toInt()
     println("Digite seu Peso")
@@ -11,9 +11,15 @@ fun main(){
     p.altura = readLine()!!.toDouble()
 
     val imc = p.peso / (p.altura * p.altura)
-    println(imc)
+    println(imc) */
 
-    //ATIVIDADE: Crie uma classe animal
-    //ATIVIDADE: Nome Ciêntifico, Especie, Dieta, Habitat
+    var gato: Gato = Gato()
+    gato.nome = "gato"
+    gato.habitat = "domestico"
+    gato.especie = "felino"
+    gato.dieta = "peixe"
 
+    /*Isso não pe recomendado*/
+    //val gato : Gato = gato as Gato
+    println(gato.nome)
 }
