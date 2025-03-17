@@ -1,4 +1,10 @@
 fun main(){
+    /*Toda Classe começa com letra MAIUSCULA
+ * e segue o padrão CamelCase
+ * Exemplo: MinhaClasse*/
+
+    /* Os ovejeto começam com letra MINUSCULA
+    * Exemplo: minhaObjeto */
   /*  val p = Pessoa()
 
     println("Digite seu nome")
