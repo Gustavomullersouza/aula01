@@ -8,7 +8,8 @@ open class Animal(){
     var especie: String = ""
     var dieta: String  = ""
     var habitat: String = ""
-
+ /*ENCAPSULAMENTO: É uma forma de controle sobre
+ * os atributos, quem pode acessar ou não */
     //Metodos
    open fun somAnimal(): String{
         return "Faz um barulho!"
