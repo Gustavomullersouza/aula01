@@ -21,5 +21,18 @@ fun main(){
 
     /*Isso não pe recomendado*/
     //val gato : Gato = gato as Gato
-    println(gato.nome)
+    println(gato.somAnimal())
+
+    var cachorro = Cachorro()
+    cachorro.nome = "cachorro"
+    cachorro.habitat = "domestico"
+    cachorro.especie = "canino"
+    cachorro.dieta = "bacon"
+
+    println(cachorro.somAnimal())
+
+    val animal = Animal()
+     println(animal.somAnimal())
+
+
 }

@@ -10,7 +10,7 @@ open class Animal(){
     var habitat: String = ""
 
     //Metodos
-   open fun somAnimal(){
-        print("Faz um barulho")
+   open fun somAnimal(): String{
+        return "Faz um barulho!"
     }
 }
