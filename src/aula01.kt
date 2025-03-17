@@ -19,7 +19,9 @@ fun main(){
     val imc = p.peso / (p.altura * p.altura)
     println(imc) */
 
-    var gato: Gato = Gato()
+    var gato: Gato = Gato()//ISSO É UM OBJETO
+    /* o objeto é uma instância da Classe Gato e
+    * da também da classe Animal*/
     gato.nome = "gato"
     gato.habitat = "domestico"
     gato.especie = "felino"
